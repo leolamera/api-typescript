@@ -2,6 +2,7 @@ import 'reflect-metadata'
 import express from 'express'
 
 import './database/connectPostgres'
+import './database/connectMongo'
 import routes from './routes'
 
 
